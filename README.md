@@ -18,8 +18,8 @@ Step 7:
 cmd prompt 창에서 docker run –it –p 8888:8888b.gcr.io/tensorflow/tensorflow:latest-devel 
 
 
-우분투/맥OS
-#Step 1:
+#우분투/맥OS
+##Step 1:
  Ubuntu/Linux 64-bit:
 	$ sudo apt-get install python-pip python-dev (python 2.7)
 	$ sudo apt-get install python-pip3 python3-dev (python 3.5)
@@ -28,7 +28,7 @@ cmd prompt 창에서 docker run –it –p 8888:8888b.gcr.io/tensorflow/tensorfl
 	$ sudo easy_install pip
 	$ sudo easy_install -- upgrade six
 
-#Step 2:
+##Step 2:
  Ubuntu/Linux 64-bit, CPU only, Python 2.7
 	$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-	0.10.0rc0-cp27-none-linux_x86_64.whl
 
@@ -43,7 +43,7 @@ $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tenso
 	$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/gpu/tensorflow-	0.10.0rc0-py2-none-any.whl
 
 
-#Step 3:
+##Step 3:
  Python 2
 $ sudo pip install --upgrade $TF_BINARY_URL
 
