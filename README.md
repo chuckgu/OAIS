@@ -27,11 +27,15 @@ cmd prompt 창에서 docker run –it –p 8888:8888b.gcr.io/tensorflow/tensorfl
 #우분투/맥OS
 ##Step 1:
  * Ubuntu/Linux 64-bit:
+
 	$ sudo apt-get install python-pip python-dev (python 2.7)
+
 	$ sudo apt-get install python-pip3 python3-dev (python 3.5)
 	
  * Mac OS X:
+
 	$ sudo easy_install pip
+
 	$ sudo easy_install -- upgrade six
 
 ##Step 2:
