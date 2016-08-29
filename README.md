@@ -42,7 +42,7 @@ cmd prompt 창에서 docker run –it –p 8888:8888b.gcr.io/tensorflow/tensorfl
  * Ubuntu/Linux 64-bit, GPU enabled, Python 2.7
  Requires CUDA toolkit 7.5 and CuDNN v4. For other versions, see "Install from sources".
 
-$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0rc0-cp27-none-linux_x86_64.whl
+        $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0rc0-cp27-none-linux_x86_64.whl
 
  * Mac OS X, CPU only, Python 2.7:
 
